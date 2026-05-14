@@ -84,7 +84,7 @@
     <!-- ── GRAVITY SECTION ── -->
     <section class="relative py-40 px-8 max-md:px-16 overflow-hidden">
       <div
-        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 max-sm:gap-5 items-center"
+        class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 max-sm:gap-5 items-center"
       >
         <!-- Image side -->
         <div class="relative hover:**:grayscale-0">
