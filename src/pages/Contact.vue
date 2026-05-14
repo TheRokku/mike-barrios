@@ -443,6 +443,18 @@ const allEvents = computed(() => [
     date: new Date('2026-04-30'),
     link: '#',
   },
+  {
+    day: '16',
+    month: 'MAY',
+    title:
+      lang.value === 'es'
+        ? 'El Poder De Escucha Activa'
+        : 'The Power Of Active Listening',
+    city: lang.value === 'es' ? 'En Vivo' : 'Live',
+    venue: 'Youtube / Instagram',
+    date: new Date('2026-05-16'),
+    link: 'https://www.youtube.com/@miguelbarriosoficial',
+  },
 ]);
 
 const now = new Date();
