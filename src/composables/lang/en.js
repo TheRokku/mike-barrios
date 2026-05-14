@@ -1,0 +1,152 @@
+export default {
+  nav: {
+    services: 'Services',
+    about: 'About',
+    speaker: 'Speaker',
+    trainer: 'Trainer',
+    coach: 'Coach',
+    writer: 'Writer',
+    academy: 'Academy',
+    contact: 'Contact',
+  },
+  home: {
+    label: 'Elite Leadership',
+    headline1: 'TRANSFORM',
+    headline2: 'YOUR',
+    headline3: 'LEADERSHIP',
+    tagline: 'Impact is not an accident. It is architecture.',
+    cta_book: 'Book Mike',
+    cta_academy: 'Explore Academy',
+    gravity_label: 'The Vision',
+    gravity_title1: 'THE',
+    gravity_title2: 'GRAVITY',
+    gravity_title3: 'OF INFLUENCE',
+    gravity_p1:
+      'True leadership does not demand attention; it commands it naturally through presence and deliberate architecture.',
+    gravity_p2:
+      "We build executives who don't just speak, but resonate. Programs designed not for the masses, but for the apex.",
+    gravity_cta: 'DISCOVER THE METHOD',
+  },
+  about: {
+    label: 'About',
+    quote: '"I am not a coach. I am the catalyst for your next level."',
+    quote_sub: 'A declaration of intent forged in the business elite.',
+    journey_label: 'Origins & Ascent',
+    journey_p1:
+      'With over two decades operating in the trenches of senior leadership, I have witnessed the abysmal difference between those who manage and those who dominate.',
+    journey_p2:
+      "I don't offer theory. I offer scars and the maps I drew coming out of them.",
+    method_title: 'The Method',
+    m1_title: 'Mental Architecture',
+    m1_desc:
+      'Dismantling limiting beliefs and rebuilding decision-making frameworks under extreme pressure.',
+    m2_title: 'Asymmetric Strategy',
+    m2_desc:
+      'Identifying invisible competitive advantages and executing disruptive moves in saturated markets.',
+    m3_title: 'Relentless Execution',
+    m3_desc:
+      'Transitioning from vision to reality with a surgical focus on accountability and implementation velocity.',
+    vision_label: 'The Vision',
+    vision_quote:
+      '"The world does not need more average leaders. It needs forces of nature capable of redefining what is possible."',
+    vision_cta: 'BEGIN THE TRANSFORMATION',
+  },
+  services: {
+    label: 'Transformational Experience',
+    headline1: 'ELEVATING',
+    headline2: 'POTENTIAL',
+    sub: 'Elite engagements designed to transform leadership, inspire action, and cultivate lasting excellence.',
+    s1_num: '01 // KEYNOTE',
+    s1_title: 'KEYNOTE SPEAKER',
+    s1_desc:
+      'Command the room. Inspiring narratives and actionable insights tailored for high-stakes corporate summits and elite gatherings.',
+    s1_cta: 'RESERVE DATE',
+    s2_num: '02 // TRAINING',
+    s2_title: 'CORPORATE TRAINER',
+    s2_desc:
+      'Forging elite teams. Intensive, bespoke training modules focusing on high-performance dynamics, negotiation mastery, and adaptive leadership.',
+    s2_cta: 'INQUIRE NOW',
+    s3_num: '03 // COACHING',
+    s3_title: 'EXECUTIVE COACH',
+    s3_desc:
+      'Precise guidance for visionaries. Confidential, one-on-one assessment for C-suite leaders navigating complex pivots and unprecedented personal growth.',
+    s3_cta: 'APPLY FOR ASSESSMENT',
+    s4_num: '04 // AUTHOR',
+    s4_title: 'AUTHOR & WRITER',
+    s4_desc:
+      'Architecting thought leadership. Provocative essays, acclaimed publications, and compelling narratives that dissect the anatomy of success and resilience.',
+    s4_cta: 'EXPLORE PUBLICATIONS',
+    final_title: 'READY FOR THE NEXT LEVEL?',
+    final_sub:
+      'Contact our team to discuss specific requirements, availability, and fee structuring.',
+    final_cta: 'INITIATE CONVERSATION',
+  },
+  academy: {
+    label: 'Elite Training',
+    headline1: 'KNOWLEDGE',
+    headline2: 'IS',
+    headline3: 'POWER',
+    sub: 'Training programs designed exclusively for individuals operating at the highest levels of risk and reward.',
+    enroll: 'ENROLL NOW',
+    lifetime: 'Lifetime Access',
+    c1_tag: 'Masterclass',
+    c1_title: 'Noir Leadership',
+    c1_desc:
+      'Navigate the shadows of corporate power. An intensive study on silent influence strategies, crisis negotiation, and the psychology of domination in high-stakes scenarios.',
+    c1_price: '$1,497',
+    c2_tag: 'System',
+    c2_title: 'High-Value Sales Systems',
+    c2_desc:
+      'Closing architecture for premium products. Deconstruct the psychology of closing elite deals and build automated architectures that convert high-net-worth prospects effortlessly.',
+    c2_price: '$2,997',
+    c2_tag2: '8-Week Blueprint',
+    c3_tag: 'Foundations',
+    c3_title: "The Architect's Mindset",
+    c3_desc:
+      'Forge the mental resilience required to build empires. A deep-dive into the cognitive frameworks of top 1% performers.',
+    c3_price: '$497',
+  },
+  events: {
+    label: 'Global Tour',
+    headline1: 'EXCLUSIVE',
+    headline2: 'EVENTS',
+    reserve: 'RESERVE SEAT',
+    booking_title: 'CORPORATE BOOKING',
+    booking_sub:
+      'Elevate the standard of your next convention or corporate event.',
+    booking_cta: 'REQUEST INFORMATION',
+  },
+  media: {
+    label: 'Audiovisual Archive',
+    headline1: 'MEDIA &',
+    headline2: 'IMPACT',
+    conf_title: 'FEATURED CONFERENCES',
+    podcast_title: 'INTERVIEWS & PODCAST',
+    podcast_sub:
+      'Deep conversations on strategy, mindset, and the architecture of sustained success.',
+    gallery_title: 'IMPACT',
+    gallery_title2: 'GALLERY',
+    gallery_cta: 'VIEW FULL ARCHIVE',
+  },
+  contact: {
+    label: 'Initiate Contact / Iniciar Contacto',
+    headline1: 'SECURE',
+    headline2: 'THE',
+    headline3: 'EXPERTISE',
+    name: 'LEGAL NAME / NOMBRE',
+    name_ph: 'Enter full name',
+    email: 'EMAIL ADDRESS / CORREO',
+    email_ph: 'Enter primary email',
+    interest: 'AREA OF INTEREST / INTERÉS',
+    message: 'OBJECTIVE / MENSAJE',
+    message_ph: 'Detail your requirements...',
+    submit: 'TRANSMIT REQUEST',
+    direct: 'DIRECT LINE / LÍNEA DIRECTA',
+    hq: 'GLOBAL HEADQUARTERS',
+    presence: 'DIGITAL PRESENCE',
+  },
+  footer: {
+    tagline: 'Elevating narratives and strategies for the elite.',
+    rights: '© 2025 MIKE BARRIOS. ALL RIGHTS RESERVED.',
+  },
+};

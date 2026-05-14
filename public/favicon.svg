@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0d0d0d"/>
+
+  <!-- Outer thin gold border -->
+  <rect x="18" y="18" width="476" height="476" fill="none" stroke="#c9a84c" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- Inner thin gold border -->
+  <rect x="28" y="28" width="456" height="456" fill="none" stroke="#c9a84c" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Corner ornaments — top left -->
+  <line x1="18" y1="18" x2="68" y2="18" stroke="#c9a84c" stroke-width="2.5"/>
+  <line x1="18" y1="18" x2="18" y2="68" stroke="#c9a84c" stroke-width="2.5"/>
+
+  <!-- Corner ornaments — top right -->
+  <line x1="494" y1="18" x2="444" y2="18" stroke="#c9a84c" stroke-width="2.5"/>
+  <line x1="494" y1="18" x2="494" y2="68" stroke="#c9a84c" stroke-width="2.5"/>
+
+  <!-- Corner ornaments — bottom left -->
+  <line x1="18" y1="494" x2="68" y2="494" stroke="#c9a84c" stroke-width="2.5"/>
+  <line x1="18" y1="494" x2="18" y2="444" stroke="#c9a84c" stroke-width="2.5"/>
+
+  <!-- Corner ornaments — bottom right -->
+  <line x1="494" y1="494" x2="444" y2="494" stroke="#c9a84c" stroke-width="2.5"/>
+  <line x1="494" y1="494" x2="494" y2="444" stroke="#c9a84c" stroke-width="2.5"/>
+
+  <!-- Thin horizontal rule above initials -->
+  <line x1="160" y1="200" x2="352" y2="200" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- MB initials — Cinzel Bold -->
+  <text
+    x="256"
+    y="318"
+    font-family="'Cinzel', 'Times New Roman', serif"
+    font-weight="700"
+    font-size="172"
+    fill="#c9a84c"
+    text-anchor="middle"
+    dominant-baseline="auto"
+    letter-spacing="8"
+  >MB</text>
+
+  <!-- Thin horizontal rule below initials -->
+  <line x1="160" y1="334" x2="352" y2="334" stroke="#c9a84c" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Small name below — Cinzel Regular -->
+  <text
+    x="256"
+    y="374"
+    font-family="'Cinzel', 'Times New Roman', serif"
+    font-weight="400"
+    font-size="22"
+    fill="#c9a84c"
+    text-anchor="middle"
+    letter-spacing="7"
+    opacity="0.75"
+  >MIKE BARRIOS</text>
+
+</svg>
