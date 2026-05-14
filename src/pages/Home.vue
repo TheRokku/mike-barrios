@@ -262,10 +262,10 @@ const stats = computed(() => [
     label: lang.value === 'es' ? 'Años de experiencia' : 'Years of experience',
   },
   {
-    value: '500+',
+    value: '10,000+',
     label: lang.value === 'es' ? 'Líderes formados' : 'Leaders trained',
   },
-  { value: '30+', label: lang.value === 'es' ? 'Países' : 'Countries' },
+  { value: '10+', label: lang.value === 'es' ? 'Países' : 'Countries' },
   {
     value: '3',
     label: lang.value === 'es' ? 'Libros publicados' : 'Books published',

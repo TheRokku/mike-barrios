@@ -287,14 +287,15 @@
         </div>
 
         <div class="flex flex-col sm:flex-row gap-4 md:justify-end">
-          <RouterLink
-            to="/contact"
+          <a
+            href="https://wa.link/j5jqag"
+            target="_blank"
             class="px-10 py-4 bg-gold text-black font-cinzel text-xs tracking-[0.3em] uppercase hover:bg-gold-light transition-colors duration-300 text-center"
           >
             {{ lang === 'es' ? 'CONTACTAR AHORA' : 'CONTACT NOW' }}
-          </RouterLink>
+          </a>
           <a
-            href="mailto:info@mikebarrios.com"
+            href="mailto:miguelbarrios595@gmail.com"
             class="px-10 py-4 border border-gold/40 text-gold font-cinzel text-xs tracking-[0.3em] uppercase hover:border-gold hover:bg-gold/5 transition-all duration-300 text-center"
           >
             {{ lang === 'es' ? 'ENVIAR CORREO' : 'SEND EMAIL' }}
@@ -327,12 +328,13 @@
         >
           {{ t.events.booking_sub }}
         </p>
-        <RouterLink
-          to="/contact"
+        <a
+          href="https://wa.link/czpllj"
+          target="_blank"
           class="inline-block px-12 py-4 border border-gold text-gold font-cinzel text-xs tracking-[0.4em] uppercase hover:bg-gold hover:text-black transition-all duration-300"
         >
           {{ t.events.booking_cta }}
-        </RouterLink>
+        </a>
       </div>
     </section>
 
@@ -386,49 +388,59 @@ const socials = computed(() => [
 
 const allEvents = computed(() => [
   {
-    day: '15',
-    month: lang.value === 'es' ? 'OCT' : 'OCT',
+    day: '17',
+    month: lang.value === 'es' ? 'ABR' : 'APR',
+    title: lang.value === 'es' ? 'Marca Personal' : 'Personal Brand',
+    city:
+      lang.value === 'es'
+        ? 'Playa del Carmen, México'
+        : 'Playa del Carmen, Mexico',
+    venue: 'Humana Workcenter',
+    date: new Date('2025-02-11'),
+    link: '#',
+  },
+
+  {
+    day: '01',
+    month: lang.value === 'es' ? 'AGO' : 'AUG',
     title:
       lang.value === 'es'
-        ? 'Liderazgo en Tiempos de Crisis'
-        : 'Leadership in Times of Crisis',
-    city: lang.value === 'es' ? 'Madrid, España' : 'Madrid, Spain',
-    venue: 'Palacio de Congresos',
-    date: new Date('2025-10-15'),
+        ? 'De Asesor A Closer Digital'
+        : 'From Advisor to Digital Closer',
+    city:
+      lang.value === 'es'
+        ? 'Playa del Carmen, Mexico'
+        : 'Playa del Carmen, Mexico',
+    venue: 'The Reef Coco Beach',
+    date: new Date('2025-10-08'),
     link: '#',
   },
   {
-    day: '02',
-    month: 'NOV',
+    day: '12',
+    month: 'FEB',
     title:
-      lang.value === 'es' ? 'El Arte de la Influencia' : 'The Art of Influence',
-    city: lang.value === 'es' ? 'Ciudad de México, MX' : 'Mexico City, MX',
-    venue: 'Auditorio Nacional',
-    date: new Date('2025-11-02'),
+      lang.value === 'es' ? 'Taller de Oratoria' : 'Public Speaking Workshop',
+    city:
+      lang.value === 'es'
+        ? 'Playa del Carmen, Mexico'
+        : 'Playa del Carmen, Mexico',
+    venue: 'Auditorio Maya Ocean',
+    date: new Date('2026-02-12'),
     link: '#',
   },
   {
-    day: '20',
-    month: 'NOV',
+    day: '30',
+    month: lang.value === 'es' ? 'ABR' : 'APR',
     title:
       lang.value === 'es'
-        ? 'Oratoria de Alto Impacto'
-        : 'High-Impact Public Speaking',
-    city: lang.value === 'es' ? 'Bogotá, Colombia' : 'Bogotá, Colombia',
-    venue: 'Centro Ágora',
-    date: new Date('2025-11-20'),
-    link: '#',
-  },
-  {
-    day: '18',
-    month: lang.value === 'es' ? 'ENE' : 'JAN',
-    title:
+        ? 'Masterclass de Marketing Digital'
+        : 'Digital Marketing Masterclass',
+    city:
       lang.value === 'es'
-        ? 'Arquitectura del Poder'
-        : 'The Architecture of Power',
-    city: lang.value === 'es' ? 'Miami, EE.UU.' : 'Miami, USA',
-    venue: 'Adrienne Arsht Center',
-    date: new Date('2026-01-18'),
+        ? 'Playa del Carmen, Mexico'
+        : 'Playa del Carmen, Mexico',
+    venue: 'Auditorio Maya Ocean',
+    date: new Date('2026-04-30'),
     link: '#',
   },
 ]);

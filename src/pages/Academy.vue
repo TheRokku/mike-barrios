@@ -51,7 +51,14 @@
     </section>
 
     <!-- ── COURSES ── -->
-    <section class="px-8 md:px-16 pb-32">
+    <section class="px-10 py-20 text-center">
+      <h4
+        class="font-cinzel text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gold/60 italic"
+      >
+        Proximamente
+      </h4>
+    </section>
+    <!-- <section class="px-8 md:px-16 pb-32">
       <div class="max-w-7xl mx-auto space-y-0">
         <div
           v-for="(course, i) in courses"
@@ -62,36 +69,36 @@
           ]"
         >
           <!-- Image — alternates sides -->
-          <div
-            :class="[
-              'relative aspect-video lg:aspect-auto overflow-hidden bg-dark2',
-              i % 2 !== 0 ? 'order-1 lg:order-2' : '',
-            ]"
-          >
-            <img
-              :src="`/images/course-${i + 1}.jpg`"
-              :alt="course.title"
-              class="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
-              onerror="this.style.display = 'none'"
-            />
-            <div
-              :class="[
-                'absolute inset-0',
-                i % 2 !== 0 ? 'bg-linear-to-l' : 'bg-linear-to-r',
-                'from-transparent to-dark/80',
-              ]"
-            ></div>
+    <!-- <div
+      :class="[
+        'relative aspect-video lg:aspect-auto overflow-hidden bg-dark2',
+        i % 2 !== 0 ? 'order-1 lg:order-2' : '',
+      ]"
+    >
+      <img
+        :src="`/images/course-${i + 1}.jpg`"
+        :alt="course.title"
+        class="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+        onerror="this.style.display = 'none'"
+      />
+      <div
+        :class="[
+          'absolute inset-0',
+          i % 2 !== 0 ? 'bg-linear-to-l' : 'bg-linear-to-r',
+          'from-transparent to-dark/80',
+        ]"
+      ></div> -->
 
-            <!-- Course number -->
-            <span
-              class="absolute top-6 left-6 font-cinzel text-4xl font-bold text-white/5"
-            >
-              {{ String(i + 1).padStart(2, '0') }}
-            </span>
-          </div>
+    <!-- Course number -->
+    <!-- <span
+        class="absolute top-6 left-6 font-cinzel text-4xl font-bold text-white/5"
+      >
+        {{ String(i + 1).padStart(2, '0') }}
+      </span>
+    </div> -->
 
-          <!-- Content -->
-          <div
+    <!-- Content -->
+    <!-- <div
             :class="[
               'p-10 md:p-16 flex flex-col justify-center bg-dark group-hover:bg-dark2 transition-colors duration-500',
               i % 2 !== 0 ? 'order-2 lg:order-1' : '',
@@ -140,7 +147,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ── BOTTOM CTA ── -->
     <section
