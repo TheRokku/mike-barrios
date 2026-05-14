@@ -29,11 +29,6 @@ const routes = [
     component: () => import('../pages/Events.vue'),
   },
   {
-    path: '/media',
-    name: 'media',
-    component: () => import('../pages/Media.vue'),
-  },
-  {
     path: '/contact',
     name: 'contact',
     component: () => import('../pages/Contact.vue'),
