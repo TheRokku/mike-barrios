@@ -33,16 +33,14 @@
         </p>
 
         <h1 class="font-cinzel font-black leading-none mb-8">
+          <span class="block text-6xl md:text-8xl max-sm:text-4xl text-white">{{
+            t.home.headline1
+          }}</span>
+          <span class="block text-6xl md:text-8xl max-sm:text-4xl text-white">{{
+            t.home.headline2
+          }}</span>
           <span
-            class="block text-6xl md:text-8xl max-sm:text-4xl lg:text-[9rem] text-white"
-            >{{ t.home.headline1 }}</span
-          >
-          <span
-            class="block text-6xl md:text-8xl max-sm:text-4xl lg:text-[9rem] text-white"
-            >{{ t.home.headline2 }}</span
-          >
-          <span
-            class="block text-6xl md:text-8xl max-sm:text-4xl lg:text-[9rem] text-gold italic"
+            class="block text-6xl md:text-8xl max-sm:text-4xl text-gold italic"
             >{{ t.home.headline3 }}</span
           >
         </h1>
@@ -84,7 +82,7 @@
     <!-- ── GRAVITY SECTION ── -->
     <section class="relative py-40 px-8 max-md:px-16 overflow-hidden">
       <div
-        class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 max-sm:gap-5 items-center"
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 max-sm:gap-5 items-center"
       >
         <!-- Image side -->
         <div class="relative hover:**:grayscale-0">
