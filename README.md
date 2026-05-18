@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# Mike Barrios — Personal Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Portfolio and landing site for Mike Barrios, an international speaker, executive coach, and corporate trainer.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![Vue 3](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/deployed-Vercel-black?logo=vercel)
+
+**Live site:** [mikebarrios.com](https://mikebarrios.com)
+
+---
+
+## About
+
+A fast, modern static site showcasing Mike's work as a speaker and coach. Built with Vue 3 and Vite, focused on clean presentation and performance.
+
+---
+
+## Stack
+
+Vue 3 · Vite · JavaScript · Deployed on Vercel
+
+---
+
+## Running locally
+
+```bash
+npm install
+npm run dev
+```
