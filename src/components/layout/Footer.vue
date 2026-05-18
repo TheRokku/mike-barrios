@@ -67,6 +67,19 @@
         >
           {{ t.footer.rights }}
         </p>
+        <a
+          :title="
+            lang === 'en'
+              ? 'Employ my services clicking here'
+              : 'Contrata mis servicios haciendo click aquí'
+          "
+          href="https://github.com/TheRokku"
+          target="_blank"
+          class="font-['Montserrat',sans-serif] text-xs tracking-[0.15em] text-white/20 hover:text-white/80 hover:*:text-gold-light transition-colors uppercase align-middle my-2"
+        >
+          {{ lang === 'en' ? 'Made with quality by ' : 'Hecho con calidad por '
+          }}<span class="font-bold text-gold transition-colors">TheRokku</span>
+        </a>
       </div>
     </div>
   </footer>
